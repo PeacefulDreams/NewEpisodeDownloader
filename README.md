@@ -1,6 +1,6 @@
-# PlexSonarrAutoDownloader
+# New Episode Downloader
 
-PlexSonarrAutoDownloader is a script that connects to Plex and Sonarr to automatically
+New Episode Downloader is an automation script that connects to Plex and Sonarr to automatically
 download the next season of a show you are watching based on the episode you are on.
 
 It has been tested on a local environment with two active plex users, so your mileage may vary on larger installs.
