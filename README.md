@@ -16,7 +16,7 @@ It has been tested on a local environment with one active plex user, so your mil
 
 The script can be installed in two ways: Via Docker or just as a plain Python script with cron.
 
-**Docker install:**
+**Docker install method**
 
 1. ``cd`` into the folder of the script.
 2. Open the script and adjust the variables to your setup (Plex URL, Token, Sonarr URL, Token)
@@ -25,7 +25,7 @@ The script can be installed in two ways: Via Docker or just as a plain Python sc
 4. In the same terminal, type:
 5. ``docker run [NAME OF CONTAINER IMAGE HERE]``
 
-**Python install**
+**Python install method**
 
 1. Copy the script anywhere you like. Be aware that their might be some permission issues with cron depending on where you put it.
 2. Open the script and adjust the variables to your setup (Plex URL, Token, Sonarr URL, Token)
