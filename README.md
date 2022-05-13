@@ -20,7 +20,7 @@ The script can be installed in two ways: Via Docker or just as a plain Python sc
 
 1. ``cd`` into the folder of the script.
 2. Open the script and adjust the variables to your setup (Plex URL, Token, Sonarr URL, Token)
-3. In a terminal, type docker build . to build the docker container. At the end of the process, Docker will tell you the tag
+3. In a terminal, type ``docker build .`` to build the docker container. At the end of the process, Docker will tell you the tag
   it has given to the resulting image.
 4. In the same terminal, type:
 5. ``docker run [NAME OF CONTAINER IMAGE HERE]``
