@@ -3,7 +3,7 @@
 **Disclaimer**
 This script is a working proof of concept based on a Reddit discussion about the ability to have Sonarr download next episodes when nearing the end of a season. It may have some bugs and has been tested on a local instance with a server owner user; Your mileage may vary.
 
-A further developed script with multi-user and monitoring support is available at https://github.com/gignsky/plex-sonarr-auto-download-next-season
+A further developed version of this script with multi-user and monitoring support is available at https://github.com/gignsky/plex-sonarr-auto-download-next-season
 
 
 ** Project description**
