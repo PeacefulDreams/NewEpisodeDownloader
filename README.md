@@ -14,8 +14,7 @@ The script can be installed in two ways: Via Docker or just as a plain Python sc
   it has given to the resulting image.
 4. In the same terminal, type:
 5. ``docker run [NAME OF CONTAINER IMAGE HERE]``
-**
-Python install**
+**Python install**
 1. Copy the script anywhere you like. Be aware that their might be some permission issues with cron depending on where you put it.
 2. Open the script and adjust the variables to your setup (Plex URL, Token, Sonarr URL, Token)
 3. In a terminal, type ``crontab -e`` to add the script to cron and run it periodically
