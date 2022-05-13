@@ -1,5 +1,13 @@
 # New Episode Downloader
 
+**Disclaimer**
+This script is a working proof of concept based on a Reddit discussion about the ability to have Sonarr download next episodes when nearing the end of a season. It may have some bugs and has been tested on a local instance with a server owner user; Your mileage may vary.
+
+A further developed script with multi-user and monitoring support is available at https://github.com/gignsky/plex-sonarr-auto-download-next-season
+
+
+** Project description**
+
 New Episode Downloader is an automation script that connects to Plex and Sonarr to automatically
 download the next season of a show you are watching based on the episode you are on.
 
@@ -20,3 +28,4 @@ The script can be installed in two ways: Via Docker or just as a plain Python sc
 3. In a terminal, type ``crontab -e`` to add the script to cron and run it periodically
     You can take some inspiration from the crontab file that comes with the script for the docker container.
     Do however check if the path to your python executable is the same. You can do so by typing ``which python`` or ``which python3`` in a terminal.
+
